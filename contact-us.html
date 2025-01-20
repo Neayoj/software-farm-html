@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Get in touch with Software Firm for inquiries, support, or custom solutions. We're here to help you achieve your goals."
+    />
+    <meta
+      name="keywords"
+      content="contact us, software firm, inquiries, support, custom solutions"
+    />
+    <meta name="author" content="Software Firm" />
+    <title>Contact Us - Software Firm</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50">
+    <!-- Navbar Section -->
+    <nav class="bg-blue-800 p-4 fixed w-full top-0 left-0 z-50 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-white font-bold text-2xl">Software Firm</a>
+        <div class="space-x-6 hidden md:flex">
+          <a href="home-page.html" class="text-white hover:text-blue-300"
+            >Home</a
+          >
+          <a href="service-page.html" class="text-white hover:text-blue-300"
+            >Services</a
+          >
+          <a href="contact-us.html" class="text-white hover:text-blue-300"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="bg-blue-900 text-white p-20 mt-16 text-center">
+      <h1 class="text-5xl font-bold">Contact Us</h1>
+      <p class="mt-4 text-xl">
+        We’d love to hear from you! Reach out with any questions, feedback, or
+        project inquiries.
+      </p>
+    </header>
+
+    <!-- Contact Form Section -->
+    <main class="py-16">
+      <div class="container mx-auto px-6">
+        <section class="bg-white p-8 rounded-lg shadow-lg max-w-3xl mx-auto">
+          <h2 class="text-3xl font-semibold text-center mb-6">Get in Touch</h2>
+          <form action="#" method="POST" class="space-y-6">
+            <div>
+              <label for="name" class="block text-gray-700 font-medium"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-gray-700 font-medium"
+                >Email Address</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Enter your email address"
+                required
+              />
+            </div>
+            <div>
+              <label for="message" class="block text-gray-700 font-medium"
+                >Your Message</label
+              >
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                class="w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Write your message here"
+                required
+              ></textarea>
+            </div>
+            <div class="text-center">
+              <button
+                type="submit"
+                class="bg-blue-800 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
+              >
+                Send Message
+              </button>
+            </div>
+          </form>
+        </section>
+
+        <!-- Contact Info Section -->
+        <section class="mt-16 text-center">
+          <h2 class="text-3xl font-semibold mb-6">Our Contact Information</h2>
+          <p class="text-gray-600 text-lg mb-4">
+            Feel free to reach us through the following channels:
+          </p>
+          <ul class="space-y-4">
+            <li>
+              <strong>Email:</strong>
+              <a
+                href="mailto:support@softwarefirm.com"
+                class="text-blue-600 hover:underline"
+                >support@softwarefirm.com</a
+              >
+            </li>
+            <li>
+              <strong>Phone:</strong>
+              <a href="tel:+1234567890" class="text-blue-600 hover:underline"
+                >+1 234 567 890</a
+              >
+            </li>
+            <li>
+              <strong>Address:</strong> 123 Software Street, Tech City, TC 56789
+            </li>
+          </ul>
+        </section>
+
+        <!-- Map Section -->
+        <section class="mt-16">
+          <h2 class="text-3xl font-semibold text-center mb-6">Our Location</h2>
+          <div class="rounded-lg overflow-hidden shadow-lg">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345097686!2d144.95373631531696!3d-37.81720997975161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5777f9b5805e0c6!2s123%20Software%20St%2C%20Tech%20City%20TC%2056789!5e0!3m2!1sen!2s!4v1615263964268!5m2!1sen!2s"
+              width="100%"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-blue-900 text-white py-6 mt-16">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2025 Software Firm. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
