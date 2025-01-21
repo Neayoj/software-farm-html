@@ -3,41 +3,138 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Page</title>
-    <!-- Tailwind CSS CDN -->
+    <title>Product Quality</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-gray-100 text-gray-900">
-    <div class="container mx-auto p-4">
-      <!-- Navbar -->
-      <nav class="bg-blue-600 p-4 rounded-md shadow-md mb-6">
-        <div class="flex space-x-4 justify-center">
-          <a href="home-page.html" class="text-white hover:text-blue-300"
-            >Home Page</a
-          >
-          <a href="private-page.html" class="text-white hover:text-blue-300"
-            >Private Page</a
-          >
-          <a
-            href="prodct-detal-page.html"
-            class="text-white hover:text-blue-300"
-            >Product Detail Page</a
-          >
-          <a href="prodct-page.html" class="text-white hover:text-blue-300"
-            >Product Page</a
-          >
-          <a href="profile-page.html" class="text-white hover:text-blue-300"
-            >Profile Page</a
-          >
-          <a href="service-page.html" class="text-white hover:text-blue-300"
-            >Service Page</a
-          >
-          <a href="setting-page.html" class="text-white hover:text-blue-300"
-            >Setting Page</a
-          >
+  <body class="bg-gray-50 text-gray-800">
+    <!-- Header Section -->
+    <header
+      class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-6"
+    >
+      <div class="container mx-auto text-center">
+        <h1 class="text-4xl font-bold">Our Commitment to Quality</h1>
+        <p class="mt-2 text-lg">
+          Setting the benchmark for excellence in every product we deliver.
+        </p>
+      </div>
+    </header>
+
+    <!-- Quality Highlights Section -->
+    <section class="py-12">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">Why Our Products Stand Out</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Highlight Card -->
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="text-blue-600 text-5xl mb-4">&#10003;</div>
+            <h3 class="text-xl font-bold">Premium Materials</h3>
+            <p class="mt-2 text-gray-600">
+              We source only the best materials to ensure durability and
+              performance.
+            </p>
+          </div>
+
+          <!-- Highlight Card -->
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="text-blue-600 text-5xl mb-4">&#10003;</div>
+            <h3 class="text-xl font-bold">Rigorous Testing</h3>
+            <p class="mt-2 text-gray-600">
+              Each product undergoes comprehensive testing to meet industry
+              standards.
+            </p>
+          </div>
+
+          <!-- Highlight Card -->
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <div class="text-blue-600 text-5xl mb-4">&#10003;</div>
+            <h3 class="text-xl font-bold">Innovative Design</h3>
+            <p class="mt-2 text-gray-600">
+              Our designs combine functionality with aesthetics for a superior
+              experience.
+            </p>
+          </div>
         </div>
-      </nav>
-    </div>
-    <p class="text-2xl font-bold mb-4">Prodct Page</p>
+      </div>
+    </section>
+
+    <!-- Quality Assurance Process -->
+    <section class="bg-gray-100 py-12">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8">
+          Our Quality Assurance Process
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div>
+            <img
+              src="https://via.placeholder.com/500"
+              alt="Quality Control"
+              class="rounded-lg shadow-lg"
+            />
+          </div>
+          <div>
+            <ul class="space-y-4 text-lg">
+              <li>
+                <span class="font-bold text-blue-600">Step 1:</span> Material
+                sourcing from verified suppliers.
+              </li>
+              <li>
+                <span class="font-bold text-blue-600">Step 2:</span> Precision
+                manufacturing with advanced technology.
+              </li>
+              <li>
+                <span class="font-bold text-blue-600">Step 3:</span> Multi-level
+                quality inspections to meet global standards.
+              </li>
+              <li>
+                <span class="font-bold text-blue-600">Step 4:</span> Continuous
+                feedback integration for product improvement.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-12">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-6">What Our Customers Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Testimonial Card -->
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <p class="italic text-gray-600">
+              "The quality of their products is unmatched. I’ve never been more
+              satisfied!"
+            </p>
+            <h3 class="mt-4 text-lg font-bold">- Alex Johnson</h3>
+          </div>
+
+          <!-- Testimonial Card -->
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <p class="italic text-gray-600">
+              "Their attention to detail and commitment to excellence are
+              evident in every item."
+            </p>
+            <h3 class="mt-4 text-lg font-bold">- Maria Gonzalez</h3>
+          </div>
+
+          <!-- Testimonial Card -->
+          <div class="bg-white rounded-lg shadow-md p-6">
+            <p class="italic text-gray-600">
+              "A truly premium experience from start to finish. Highly
+              recommended!"
+            </p>
+            <h3 class="mt-4 text-lg font-bold">- Liam Smith</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-blue-600 text-white py-6">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2025 Your Company. Excellence in every detail.</p>
+      </div>
+    </footer>
   </body>
 </html>
