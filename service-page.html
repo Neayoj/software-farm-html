@@ -1,94 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover our innovative and custom software solutions to help your business thrive. We specialize in software development, mobile app development, cloud solutions, consulting, UI/UX design, and more."
+    />
+    <meta
+      name="keywords"
+      content="software development, mobile apps, cloud solutions, consulting, UI/UX design, support, maintenance"
+    />
+    <meta name="author" content="Software Firm" />
     <title>Services - Software Firm</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-50">
-
+  </head>
+  <body class="bg-gray-50">
     <!-- Navbar Section -->
     <nav class="bg-blue-800 p-4 fixed w-full top-0 left-0 z-50 shadow-lg">
-        <div class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-white font-bold text-2xl">Software Firm</a>
-            <div class="space-x-6 hidden md:flex">
-                <a href="home-page.html" class="text-white hover:text-blue-300">Home</a>
-                <a href="private-page.html" class="text-white hover:text-blue-300">Private</a>
-                <a href="prodct-detal-page.html" class="text-white hover:text-blue-300">Product Detail</a>
-                <a href="prodct-page.html" class="text-white hover:text-blue-300">Product</a>
-                <a href="profile-page.html" class="text-white hover:text-blue-300">Profile</a>
-                <a href="service-page.html" class="text-white hover:text-blue-300">Services</a>
-                <a href="setting-page.html" class="text-white hover:text-blue-300">Settings</a>
-            </div>
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="#" class="text-white font-bold text-2xl">Software Firm</a>
+        <div class="space-x-6 hidden md:flex">
+          <a href="home-page.html" class="text-white hover:text-blue-300"
+            >Home</a
+          >
+          <a href="private-page.html" class="text-white hover:text-blue-300"
+            >Private</a
+          >
+          <a
+            href="product-detail-page.html"
+            class="text-white hover:text-blue-300"
+            >Product Detail</a
+          >
+          <a href="product-page.html" class="text-white hover:text-blue-300"
+            >Product</a
+          >
+          <a href="profile-page.html" class="text-white hover:text-blue-300"
+            >Profile</a
+          >
+          <a href="service-page.html" class="text-white hover:text-blue-300"
+            >Services</a
+          >
+          <a href="settings-page.html" class="text-white hover:text-blue-300"
+            >Settings</a
+          >
         </div>
+      </div>
     </nav>
 
     <!-- Header Section -->
     <header class="bg-blue-900 text-white p-20 mt-16 text-center">
-        <h1 class="text-5xl font-bold">Our Software Solutions</h1>
-        <p class="mt-4 text-xl">Innovative and custom software solutions to help your business thrive.</p>
+      <h1 class="text-5xl font-bold">Our Software Solutions</h1>
+      <p class="mt-4 text-xl">
+        Innovative and custom software solutions to help your business thrive.
+      </p>
     </header>
 
     <!-- Services Section -->
-    <section class="py-16">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-semibold text-center mb-12">Our Services</h2>
+    <main class="py-16">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-semibold text-center mb-12">Our Services</h2>
 
-            <!-- Service Cards -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-                <!-- Service 1 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="https://images.unsplash.com/photo-1712159018726-4564d92f3ec2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Software Development" class="w-full h-48 object-cover rounded-md mb-6">
-                    <h3 class="text-2xl font-semibold text-gray-800">Software Development</h3>
-                    <p class="text-gray-600 mt-4">We create high-performance, scalable software solutions tailored to your needs. From web apps to enterprise systems, we've got you covered.</p>
-                </div>
+        <!-- Service Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <!-- Service 1 -->
+          <article
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
+          >
+            <img
+              src="./images/software-development.jpg"
+              alt="Team working on software development"
+              class="w-full h-48 object-cover rounded-md mb-6"
+            />
+            <a href="software-development.html"
+              ><h3 class="text-2xl font-semibold text-gray-800">
+                Software Development
+              </h3></a
+            >
+            <p class="text-gray-600 mt-4">
+              We create high-performance, scalable software solutions tailored
+              to your needs. From web apps to enterprise systems, we've got you
+              covered.
+            </p>
+          </article>
 
-                <!-- Service 2 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="https://images.unsplash.com/photo-1566890899-e9636bdf59be?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg5OXwwfDF8c2VhY2h8Mnx8bW9iaWxlJTIwYXBwcyUyMGRldmVsb3BtZW50fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400" alt="Mobile App Development" class="w-full h-48 object-cover rounded-md mb-6">
-                    <h3 class="text-2xl font-semibold text-gray-800">Mobile App Development</h3>
-                    <p class="text-gray-600 mt-4">Our team specializes in building intuitive and robust mobile applications for both iOS and Android platforms, ensuring a seamless user experience.</p>
-                </div>
+          <!-- Service 2 -->
+          <article
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
+          >
+            <img
+              src="./images/monile.jpg"
+              alt="Mobile app interface design"
+              class="w-full h-48 object-cover rounded-md mb-6"
+            />
+            <a href="mobile-app-service.html"
+              ><h3 class="text-2xl font-semibold text-gray-800">
+                Mobile App Development
+              </h3></a
+            >
 
-                <!-- Service 3 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="https://images.unsplash.com/photo-1516312254309-5b0d1511f070?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg5OXwwfDF8c2VhY2h8Nnx8Y2xvdWQlMjBzb2x1dGlvbnN8ZW58MHx8fHx8&ixlib=rb-1.2.1&q=80&w=400" alt="Cloud Solutions" class="w-full h-48 object-cover rounded-md mb-6">
-                    <h3 class="text-2xl font-semibold text-gray-800">Cloud Solutions</h3>
-                    <p class="text-gray-600 mt-4">We help businesses migrate to the cloud and implement scalable, secure, and cost-efficient cloud services to boost performance and collaboration.</p>
-                </div>
+            <p class="text-gray-600 mt-4">
+              Our team specializes in building intuitive and robust mobile
+              applications for both iOS and Android platforms, ensuring a
+              seamless user experience.
+            </p>
+          </article>
 
-                <!-- Service 4 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="https://images.unsplash.com/photo-1572494977798-f22e4c1d3358?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg5OXwwfDF8c2VhY2h8M3x8Y29uc3VsdGluZyUyMHNlcnZpY2V8ZW58MHx8fHx8&ixlib=rb-1.2.1&q=80&w=400" alt="Consulting Services" class="w-full h-48 object-cover rounded-md mb-6">
-                    <h3 class="text-2xl font-semibold text-gray-800">Consulting Services</h3>
-                    <p class="text-gray-600 mt-4">Our consulting services help you align technology strategies with business objectives. We guide you through every stage of your software journey.</p>
-                </div>
+          <!-- Service 3 -->
+          <article
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
+          >
+            <img
+              src="./images/cloud).jpg"
+              alt="Server infrastructure for cloud services"
+              class="w-full h-48 object-cover rounded-md mb-6"
+            />
+            <a href="cloud-solution-service.html"
+              ><h3 class="text-2xl font-semibold text-gray-800">
+                Cloud Solutions
+              </h3></a
+            >
+            <p class="text-gray-600 mt-4">
+              We help businesses migrate to the cloud and implement scalable,
+              secure, and cost-efficient cloud services to boost performance and
+              collaboration.
+            </p>
+          </article>
 
-                <!-- Service 5 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="https://images.unsplash.com/photo-1534528741775-7a593b8f1c38?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg5OXwwfDF8c2VhY2h8Nnx8dWl1JTIwVXglMjB6fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400" alt="UI/UX Design" class="w-full h-48 object-cover rounded-md mb-6">
-                    <h3 class="text-2xl font-semibold text-gray-800">UI/UX Design</h3>
-                    <p class="text-gray-600 mt-4">Our design team ensures that your software has an intuitive interface and an exceptional user experience that engages and retains customers.</p>
-                </div>
+          <!-- Service 4 -->
+          <article
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
+          >
+            <img
+              src="./images/consulting.jpg"
+              alt="Consulting meeting in progress"
+              class="w-full h-48 object-cover rounded-md mb-6"
+            />
 
-                <!-- Service 6 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="https://images.unsplash.com/photo-1580578858982-9b217d046c02?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg5OXwwfDF8c2VhY2h8OXx8Y29tcGxldGUlMjBhbmQlMjBzdXBwb3J0fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400" alt="Support & Maintenance" class="w-full h-48 object-cover rounded-md mb-6">
-                    <h3 class="text-2xl font-semibold text-gray-800">Support & Maintenance</h3>
-                    <p class="text-gray-600 mt-4">We offer ongoing support and maintenance to ensure your systems are always up and running smoothly, helping you adapt to evolving needs.</p>
-                </div>
-            </div>
+            <a href="consulting-services.html">
+              <h3 class="text-2xl font-semibold text-gray-800">
+                Consulting Services
+              </h3></a
+            >
+            <p class="text-gray-600 mt-4">
+              Our consulting services help you align technology strategies with
+              business objectives. We guide you through every stage of your
+              software journey.
+            </p>
+          </article>
+
+          <!-- Service 5 -->
+          <article
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
+          >
+            <img
+              src="./images/uiux.jpg"
+              alt="User-friendly UI/UX designs"
+              class="w-full h-48 object-cover rounded-md mb-6"
+            />
+            <a href="ui-ux-design-service.html"
+              ><h3 class="text-2xl font-semibold text-gray-800">
+                UI/UX Design
+              </h3></a
+            >
+            <p class="text-gray-600 mt-4">
+              Our design team ensures that your software has an intuitive
+              interface and an exceptional user experience that engages and
+              retains customers.
+            </p>
+          </article>
+
+          <!-- Service 6 -->
+          <article
+            class="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
+          >
+            <img
+              src="./images/support.jpg"
+              alt="Technical support team at work"
+              class="w-full h-48 object-cover rounded-md mb-6"
+            />
+            <a href="support-maintenance.html">
+              <h3 class="text-2xl font-semibold text-gray-800">
+                Support & Maintenance
+              </h3></a
+            >
+            <p class="text-gray-600 mt-4">
+              We offer ongoing support and maintenance to ensure your systems
+              are always up and running smoothly, helping you adapt to evolving
+              needs.
+            </p>
+          </article>
         </div>
-    </section>
+
+        <!-- Call to Action -->
+        <div class="mt-16 text-center">
+          <a
+            href="contact-us.html"
+            class="bg-blue-800 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
+            >Get in Touch</a
+          >
+        </div>
+      </div>
+    </main>
 
     <!-- Footer Section -->
     <footer class="bg-blue-900 text-white py-6 mt-16">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2025 Software Firm. All Rights Reserved.</p>
-        </div>
+      <div class="container mx-auto text-center">
+        <p>&copy; 2025 Software Firm. All Rights Reserved.</p>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>
