@@ -179,9 +179,108 @@
     </main>
 
     <!-- Footer Section -->
-    <footer class="bg-blue-900 text-white py-6 mt-16">
-      <div class="container mx-auto text-center">
-        <p>&copy; 2025 Software Firm. All Rights Reserved.</p>
+    <footer class="bg-blue-900 text-white py-12">
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- About Section -->
+        <div>
+          <h4 class="text-lg font-semibold mb-4">About Us</h4>
+          <p class="text-gray-300 text-sm">
+            Software Firm provides innovative solutions to help businesses grow
+            and succeed. From development to support, we've got you covered.
+          </p>
+        </div>
+
+        <!-- Quick Links Section -->
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="home-page.html" class="hover:underline">Home</a></li>
+            <li>
+              <a href="service-page.html" class="hover:underline">Services</a>
+            </li>
+            <li>
+              <a href="product-page.html" class="hover:underline">Products</a>
+            </li>
+            <li>
+              <a href="contact-us.html" class="hover:underline">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Section -->
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Newsletter</h4>
+          <p class="text-gray-300 text-sm mb-4">
+            Subscribe to our newsletter to stay updated with the latest news and
+            offers.
+          </p>
+          <form class="flex space-x-2">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="w-full px-4 py-2 text-gray-800 rounded-lg focus:outline-none"
+            />
+            <button
+              type="submit"
+              class="bg-blue-700 px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+
+        <!-- Contact Section -->
+        <div>
+          <h4 class="text-lg font-semibold mb-4">Contact Us</h4>
+          <p class="text-gray-300 text-sm">
+            <strong>Email:</strong> support@softwarefirm.com<br />
+            <strong>Phone:</strong> +1 234 567 890<br />
+            <strong>Address:</strong> 123 Software Street, Tech City, TX
+          </p>
+          <div class="flex space-x-4 mt-4">
+            <a href="#" class="hover:text-blue-300" aria-label="Facebook">
+              <svg
+                class="w-5 h-5"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M9 8H7v4H3v4h4v8h5v-8h4l1-4h-5V9c0-1 1-1 2-1h3V4h-4c-4 0-6 2-6 5v3z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="hover:text-blue-300" aria-label="Twitter">
+              <svg
+                class="w-5 h-5"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M22 5.6c-.8.3-1.6.6-2.5.7.9-.6 1.6-1.4 1.9-2.5-.8.5-1.7.9-2.7 1.1A4.5 4.5 0 0 0 16 4c-2.4 0-4.4 2-4.4 4.4 0 .3 0 .7.1 1C8.1 9.2 5 7.7 3 5.2c-.4.7-.6 1.5-.6 2.4 0 1.6.8 3 2 3.8-.7 0-1.4-.2-2-.5 0 2.3 1.6 4.1 3.6 4.5-.4.1-.8.2-1.2.2-.3 0-.6 0-.9-.1.6 2 2.4 3.4 4.5 3.4-1.7 1.4-3.8 2.2-6 2.2H4c2.1 1.3 4.7 2 7.4 2 8.9 0 13.8-7.4 13.8-13.8v-.6c.9-.6 1.6-1.3 2.2-2z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="hover:text-blue-300" aria-label="LinkedIn">
+              <svg
+                class="w-5 h-5"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M4.98 3.5A2.5 2.5 0 1 1 2.48 6 2.5 2.5 0 0 1 4.98 3.5zM2 8h4v12H2zM7.5 8H11v1.76a4.93 4.93 0 0 1 3.78-1.76c3 0 5.22 2 5.22 5.94V20h-4v-6c0-1.6-.3-2.78-2-2.78-1.62 0-2.3 1.17-2.3 2.78V20H7.5z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 mt-8 pt-4 text-center">
+        <p class="text-gray-400 text-sm">
+          &copy; 2025 Software Firm. All Rights Reserved.
+        </p>
       </div>
     </footer>
   </body>
