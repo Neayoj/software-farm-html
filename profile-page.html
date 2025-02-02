@@ -8,26 +8,63 @@
     <title>Profile - Latent Talent</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom Styles */
+      .custom-gradient {
+        background: linear-gradient(to right, #6a11cb, #2575fc);
+      }
+      .avatar-border {
+        border: 5px solid rgba(37, 117, 252, 0.8);
+      }
+      .highlight {
+        background: linear-gradient(120deg, #6a11cb 0%, #2575fc 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    </style>
   </head>
-  <body class="bg-gray-50">
+  <body class="bg-gray-50 font-sans">
     <!-- Navbar Section -->
-    <nav class="bg-blue-800 p-4 fixed w-full top-0 left-0 z-50 shadow-lg">
+    <nav class="custom-gradient p-4 fixed w-full top-0 left-0 z-50 shadow-lg">
       <div class="container mx-auto flex justify-between items-center">
-        <a href="#" class="text-white font-bold text-2xl">Latent Talent</a>
+        <a
+          href="home-page.html"
+          class="text-white font-bold text-3xl tracking-wide"
+        >
+          LATENT TALENT
+        </a>
         <div class="space-x-6 hidden md:flex">
-          <a href="home-page.html" class="text-white hover:text-blue-300"
+          <a
+            href="home-page.html"
+            class="text-white hover:text-blue-200 transition"
             >Home</a
           >
-          <a href="service-page.html" class="text-white hover:text-blue-300"
-            >Services</a
+          <a
+            href="private-page.html"
+            class="text-white hover:text-blue-200 transition"
+            >Private</a
           >
-          <a href="product-page.html" class="text-white hover:text-blue-300"
-            >Products</a
+          <a
+            href="product-detail-page.html"
+            class="text-white hover:text-blue-200 transition"
+            >Product Detail</a
           >
-          <a href="profile-page.html" class="text-white hover:text-blue-300"
+          <a
+            href="product-page.html"
+            class="text-white hover:text-blue-200 transition"
+            >Product</a
+          >
+          <a href="profile-page.html" class="text-white font-semibold underline"
             >Profile</a
           >
-          <a href="settings-page.html" class="text-white hover:text-blue-300"
+          <a
+            href="service-page.html"
+            class="text-white hover:text-blue-200 transition"
+            >Services</a
+          >
+          <a
+            href="setting-page.html"
+            class="text-white hover:text-blue-200 transition"
             >Settings</a
           >
         </div>
@@ -35,41 +72,57 @@
     </nav>
 
     <!-- Profile Section -->
-    <main class="py-16 mt-16">
+    <main class="py-20 mt-16">
       <div class="container mx-auto px-6">
-        <div class="bg-white p-8 rounded-lg shadow-lg max-w-4xl mx-auto">
-          <div class="flex items-center space-x-6 mb-6">
+        <div class="bg-white p-8 rounded-xl shadow-2xl max-w-5xl mx-auto">
+          <!-- Header Section -->
+          <div class="text-center mb-8">
             <img
               src="pf-pic/DALL·E 2025-01-22 17.31.29 - A professional and creative logo design for 'Latent Talent,' featuring sleek typography combined with a minimalist icon symbolizing growth and hidden .webp"
               alt="Profile Picture"
-              class="w-24 h-24 rounded-full border-2 border-blue-800"
+              class="w-28 h-28 rounded-full avatar-border shadow-md mx-auto"
             />
-            <div>
-              <h1 class="text-2xl font-bold text-gray-800">Latent Talent</h1>
-              <p class="text-gray-600">Software Engineer office</p>
-            </div>
+            <h1 class="text-4xl font-bold mt-4 text-gray-800">Latent Talent</h1>
+            <p class="text-lg text-gray-600">Software Engineer Office</p>
+            <button
+              class="mt-4 bg-blue-600 text-white px-6 py-2 rounded-lg shadow-lg hover:bg-blue-500 transition"
+            >
+              Edit Profile
+            </button>
           </div>
 
-          <!-- User Details -->
-          <div class="space-y-6">
-            <div>
-              <h2 class="text-lg font-semibold text-gray-800">
+          <!-- Information Cards -->
+          <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+              <h2 class="text-2xl font-semibold text-gray-800 mb-4">
                 Personal Information
               </h2>
-              <div class="text-gray-600 mt-2">
-                <a href="mailto:tareqhassan2014@gmail.com">
-                  <p><strong>Email:</strong> tareqhassan2014@gmail.com</p></a
-                >
-                <a href="tel:01307-289050">
-                  <p><strong>Phone:</strong> +8801307-289050</p></a
-                >
-                <p><strong>Address:</strong> Nalta, kaliganj, Satkhira</p>
-              </div>
+              <ul class="space-y-3">
+                <li>
+                  <strong>Email:</strong>
+                  <a
+                    href="mailto:tareqhassan2014@gmail.com"
+                    class="text-blue-600 hover:underline"
+                  >
+                    tareqhassan2014@gmail.com
+                  </a>
+                </li>
+                <li>
+                  <strong>Phone:</strong>
+                  <a
+                    href="tel:+8801307-289050"
+                    class="text-blue-600 hover:underline"
+                  >
+                    +8801307-289050
+                  </a>
+                </li>
+                <li><strong>Address:</strong> Nalta, Kaliganj, Satkhira</li>
+              </ul>
             </div>
 
-            <div>
-              <h2 class="text-lg font-semibold text-gray-800">Skills</h2>
-              <ul class="list-disc list-inside text-gray-600 mt-2">
+            <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+              <h2 class="text-2xl font-semibold text-gray-800 mb-4">Skills</h2>
+              <ul class="list-disc list-inside text-gray-600 space-y-2">
                 <li>Web Development</li>
                 <li>Mobile App Development</li>
                 <li>Cloud Solutions</li>
@@ -77,11 +130,11 @@
               </ul>
             </div>
 
-            <div>
-              <h2 class="text-lg font-semibold text-gray-800">
+            <div class="md:col-span-2 bg-gray-100 p-6 rounded-lg shadow-lg">
+              <h2 class="text-2xl font-semibold text-gray-800 mb-4">
                 Recent Projects
               </h2>
-              <ul class="list-disc list-inside text-gray-600 mt-2">
+              <ul class="list-disc list-inside text-gray-600 space-y-2">
                 <li>E-commerce Website Development</li>
                 <li>Cloud Infrastructure Implementation</li>
                 <li>Mobile App for Task Management</li>
@@ -93,7 +146,7 @@
     </main>
 
     <!-- Footer Section -->
-    <footer class="bg-blue-900 text-white py-12">
+    <footer class="custom-gradient text-white py-12">
       <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         <!-- About Section -->
         <div>
@@ -113,7 +166,7 @@
               <a href="service-page.html" class="hover:underline">Services</a>
             </li>
             <li>
-              <a href="product-page.html" class="hover:underline">Products</a>
+              <a href="prodct-page.html" class="hover:underline">Products</a>
             </li>
             <li>
               <a href="contact-us.html" class="hover:underline">Contact</a>
@@ -158,7 +211,7 @@
           <div class="flex space-x-4 mt-4">
             <a
               href="https://www.facebook.com/profile.php?id=61565336692683"
-              class="hover:text-blue-300"
+              class="hover:text-blue-200"
               aria-label="Facebook"
             >
               <svg
@@ -172,7 +225,7 @@
                 />
               </svg>
             </a>
-            <a href="#" class="hover:text-blue-300" aria-label="Twitter">
+            <a href="#" class="hover:text-blue-200" aria-label="Twitter">
               <svg
                 class="w-5 h-5"
                 xmlns="http://www.w3.org/2000/svg"
@@ -184,7 +237,7 @@
                 />
               </svg>
             </a>
-            <a href="/" class="hover:text-blue-300" aria-label="LinkedIn">
+            <a href="#" class="hover:text-blue-200" aria-label="LinkedIn">
               <svg
                 class="w-5 h-5"
                 xmlns="http://www.w3.org/2000/svg"
@@ -199,8 +252,8 @@
           </div>
         </div>
       </div>
-      <div class="border-t border-gray-700 mt-8 pt-4 text-center">
-        <p class="text-gray-400 text-sm">
+      <div class="border-t border-blue-800 mt-8 pt-4 text-center">
+        <p class="text-gray-200 text-sm">
           &copy; 2025 Latent Talent. All Rights Reserved.
         </p>
       </div>
