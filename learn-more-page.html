@@ -8,34 +8,75 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body class="bg-gray-50 text-gray-900">
-    <!-- Header -->
-    <header class="bg-blue-600 text-white py-4 shadow-md">
-      <div class="container mx-auto flex justify-between items-center px-4">
-        <h1 class="text-2xl font-bold">Learn More</h1>
-        <nav>
-          <ul class="flex space-x-6">
-            <li><a href="home-page.html" class="hover:underline">Home</a></li>
-            <li>
-              <a href="service-page.html" class="hover:underline">Services</a>
-            </li>
-            <li>
-              <a href="contact-page.html" class="hover:underline">Contact</a>
-            </li>
-          </ul>
-        </nav>
+    <!-- Navbar Section -->
+    <nav class="bg-blue-800 p-4 fixed w-full top-0 left-0 z-50 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center">
+        <a href="home-page.html" class="text-white font-extrabold text-2xl">
+          LATENT TALENT</a
+        >
+        <div class="space-x-6 hidden md:flex">
+          <a href="home-page.html" class="text-white hover:text-blue-300"
+            >Home</a
+          >
+          <a href="private-page.html" class="text-white hover:text-blue-300"
+            >Private</a
+          >
+          <a
+            href="prodct-detal-page.html"
+            class="text-white hover:text-blue-300"
+            >Product Detail</a
+          >
+          <a href="prodct-page.html" class="text-white hover:text-blue-300"
+            >Product</a
+          >
+          <a href="profile-page.html" class="text-white hover:text-blue-300"
+            >Profile</a
+          >
+          <a href="service-page.html" class="text-white hover:text-blue-300"
+            >Services</a
+          >
+          <a href="setting-page.html" class="text-white hover:text-blue-300"
+            >Settings</a
+          >
+        </div>
       </div>
-    </header>
+    </nav>
 
-    <!-- Hero Section -->
-    <section class="bg-blue-100 py-12 text-center">
-      <div class="container mx-auto px-4">
-        <h2 class="text-4xl font-bold text-blue-700 mb-4">
-          Discover What We Offer
-        </h2>
-        <p class="text-lg text-blue-600">
-          Explore the possibilities and learn how we can help you achieve
-          success.
-        </p>
+    
+      </body>
+    </html><!-- Hero Section -->
+    <section
+      class="bg-gradient-to-r from-blue-800 to-blue-600 text-white py-20"
+    >
+      <div class="container mx-auto px-6 text-center md:text-left">
+        <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+          <!-- Text Content -->
+          <div class="mb-10 md:mb-0">
+            <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
+              Discover More About Our Services
+            </h1>
+            <p class="text-lg md:text-xl mb-6">
+              Learn how our innovative solutions can help your business
+              grow, streamline operations, and achieve new heights of
+              success.
+            </p>
+            <a
+              href="contact-us.html"
+              class="bg-white text-blue-800 font-semibold py-3 px-6 rounded-lg shadow-md hover:bg-gray-100 transition duration-300"
+            >
+              Contact Us
+            </a>
+          </div>
+
+          <!-- Image Content -->
+          <div>
+            <img
+              src="images/learn more page/learn more2.jpg"
+              alt="Hero Image"
+              class="rounded-lg shadow-lg w-full"
+            />
+          </div>
+        </div>
       </div>
     </section>
 
